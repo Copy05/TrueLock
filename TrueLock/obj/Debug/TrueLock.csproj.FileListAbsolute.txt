@@ -1,0 +1,13 @@
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\bin\Debug\TrueLock.exe
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\bin\Debug\TrueLock.pdb
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.csproj.AssemblyReference.cache
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.Form1.resources
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.Properties.Resources.resources
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.TLSplashScreen.resources
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.csproj.GenerateResource.cache
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.csproj.CoreCompileInputs.cache
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.exe
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.pdb
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.FullscreenLock.resources
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.LoginForm.resources
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.TextEditor.resources
