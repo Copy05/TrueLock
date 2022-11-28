@@ -5,7 +5,7 @@
 	  <b>Truelock</b>
 </h1>
 <p>
-	  Design of a modern text editor with WFA and WPF platforms
+	  A simple & User friendly Screenlocker
 </p>
 
 <b>Author:</b> Copy05
