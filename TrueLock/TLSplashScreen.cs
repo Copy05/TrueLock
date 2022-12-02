@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿/*
+ * 
+ * Copyright Copy05 2016-2023
+ * TrueLock is a product by Copy05.
+ * 
+ * **/
+
+using System;
 using System.Windows.Forms;
 
 namespace TrueLock

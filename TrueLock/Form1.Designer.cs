@@ -37,13 +37,17 @@
             this.UsernameTextBox = new System.Windows.Forms.TextBox();
             this.ApplyButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.URLGB = new System.Windows.Forms.GroupBox();
+            this.URLTB = new System.Windows.Forms.TextBox();
+            this.WebBrowserCB = new System.Windows.Forms.CheckBox();
+            this.KillAppsCB = new System.Windows.Forms.CheckBox();
             this.ShutdownCB = new System.Windows.Forms.CheckBox();
             this.enableTECB = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.LockButton = new System.Windows.Forms.Button();
-            this.KillAppsCB = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.URLGB.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -116,15 +120,57 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.URLGB);
+            this.groupBox2.Controls.Add(this.WebBrowserCB);
             this.groupBox2.Controls.Add(this.KillAppsCB);
             this.groupBox2.Controls.Add(this.ShutdownCB);
             this.groupBox2.Controls.Add(this.enableTECB);
             this.groupBox2.Location = new System.Drawing.Point(12, 210);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(424, 95);
+            this.groupBox2.Size = new System.Drawing.Size(424, 100);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Optional Settings";
+            // 
+            // URLGB
+            // 
+            this.URLGB.Controls.Add(this.URLTB);
+            this.URLGB.Location = new System.Drawing.Point(198, 45);
+            this.URLGB.Name = "URLGB";
+            this.URLGB.Size = new System.Drawing.Size(220, 49);
+            this.URLGB.TabIndex = 5;
+            this.URLGB.TabStop = false;
+            this.URLGB.Text = "URL";
+            // 
+            // URLTB
+            // 
+            this.URLTB.Location = new System.Drawing.Point(6, 18);
+            this.URLTB.Name = "URLTB";
+            this.URLTB.Size = new System.Drawing.Size(208, 20);
+            this.URLTB.TabIndex = 5;
+            this.URLTB.TextChanged += new System.EventHandler(this.URLTB_TextChanged);
+            // 
+            // WebBrowserCB
+            // 
+            this.WebBrowserCB.AutoSize = true;
+            this.WebBrowserCB.Location = new System.Drawing.Point(198, 22);
+            this.WebBrowserCB.Name = "WebBrowserCB";
+            this.WebBrowserCB.Size = new System.Drawing.Size(130, 17);
+            this.WebBrowserCB.TabIndex = 4;
+            this.WebBrowserCB.Text = "Open as WebBrowser";
+            this.WebBrowserCB.UseVisualStyleBackColor = true;
+            this.WebBrowserCB.CheckedChanged += new System.EventHandler(this.WebBrowserCB_CheckedChanged);
+            // 
+            // KillAppsCB
+            // 
+            this.KillAppsCB.AutoSize = true;
+            this.KillAppsCB.Location = new System.Drawing.Point(21, 68);
+            this.KillAppsCB.Name = "KillAppsCB";
+            this.KillAppsCB.Size = new System.Drawing.Size(110, 17);
+            this.KillAppsCB.TabIndex = 3;
+            this.KillAppsCB.Text = "Kill Mostly of apps";
+            this.KillAppsCB.UseVisualStyleBackColor = true;
+            this.KillAppsCB.CheckedChanged += new System.EventHandler(this.KillAppsCB_CheckedChanged);
             // 
             // ShutdownCB
             // 
@@ -151,7 +197,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 321);
+            this.label2.Location = new System.Drawing.Point(9, 326);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 13);
             this.label2.TabIndex = 3;
@@ -160,24 +206,13 @@
             // LockButton
             // 
             this.LockButton.Enabled = false;
-            this.LockButton.Location = new System.Drawing.Point(361, 311);
+            this.LockButton.Location = new System.Drawing.Point(361, 316);
             this.LockButton.Name = "LockButton";
             this.LockButton.Size = new System.Drawing.Size(75, 23);
             this.LockButton.TabIndex = 4;
             this.LockButton.Text = "Lock";
             this.LockButton.UseVisualStyleBackColor = true;
             this.LockButton.Click += new System.EventHandler(this.LockButton_Click);
-            // 
-            // KillAppsCB
-            // 
-            this.KillAppsCB.AutoSize = true;
-            this.KillAppsCB.Location = new System.Drawing.Point(21, 68);
-            this.KillAppsCB.Name = "KillAppsCB";
-            this.KillAppsCB.Size = new System.Drawing.Size(110, 17);
-            this.KillAppsCB.TabIndex = 3;
-            this.KillAppsCB.Text = "Kill Mostly of apps";
-            this.KillAppsCB.UseVisualStyleBackColor = true;
-            this.KillAppsCB.CheckedChanged += new System.EventHandler(this.KillAppsCB_CheckedChanged);
             // 
             // Form1
             // 
@@ -197,10 +232,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrueLock v1.0 Configurations";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.URLGB.ResumeLayout(false);
+            this.URLGB.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,6 +259,9 @@
         private System.Windows.Forms.CheckBox enableTECB;
         private System.Windows.Forms.CheckBox ShutdownCB;
         private System.Windows.Forms.CheckBox KillAppsCB;
+        private System.Windows.Forms.CheckBox WebBrowserCB;
+        private System.Windows.Forms.GroupBox URLGB;
+        private System.Windows.Forms.TextBox URLTB;
     }
 }
 

@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿/*
+ * 
+ * Copyright Copy05 2016-2023
+ * TrueLock is a product by Copy05.
+ * 
+ * **/
+
+using System;
 using System.Windows.Forms;
-using System.Windows.Input;
 using TrueLock.Util;
 using TrueLock.Security;
 
@@ -64,6 +64,11 @@ namespace TrueLock
             {
                 Helpers.ExecuteCommand("start explorer.exe");
                 Environment.Exit(0);
+            }
+
+            if (UsernameTextBox.Text != Settings.Username || PasswordTextBox.Text != Settings.Password)
+            {
+                MessageBox.Show("The login or password is incorrect. please try again", "TrueLock", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

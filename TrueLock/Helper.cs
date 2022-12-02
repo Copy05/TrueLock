@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿/*
+ * 
+ * Copyright Copy05 2016-2023
+ * TrueLock is a product by Copy05.
+ * 
+ * **/
+
+using System;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading;
-using System.Windows.Forms;
-using TrueLock.Util;
 
 namespace TrueLock
 {
@@ -18,6 +15,7 @@ namespace TrueLock
     {
         internal class Helpers
         {
+
             /// <summary>
             /// Executes a command.
             /// </summary>
@@ -37,8 +35,7 @@ namespace TrueLock
             {
                 ExecuteCommand("taskkill /f /im " + proc);
             }
-        }
 
+        }
     }
-    
 }

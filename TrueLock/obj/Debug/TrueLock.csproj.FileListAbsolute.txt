@@ -11,3 +11,4 @@
 \\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.FullscreenLock.resources
 \\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.LoginForm.resources
 \\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.TextEditor.resources
+\\FS01.szm.local\BBW-Azubis_UserFolders$\Agelos.Alexiou\Documents\Projects\C#\TrueLock\TrueLock\obj\Debug\TrueLock.FullWebBrowser.resources

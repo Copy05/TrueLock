@@ -20,8 +20,10 @@ namespace TrueLock
         private void FullscreenLock_Load(object sender, EventArgs e)
         { 
             TextEditorShortcut.Visible = false;
+            AppMenu.Visible = false;
             if (((Form1)Settings).hasEnabledTextEditor)
             {
+                AppMenu.Visible = true;
                 TextEditorShortcut.Visible = true;
             }
         }

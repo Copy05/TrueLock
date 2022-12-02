@@ -11,6 +11,8 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -59,6 +61,12 @@
     <Compile Include="FullscreenLock.Designer.cs">
       <DependentUpon>FullscreenLock.cs</DependentUpon>
     </Compile>
+    <Compile Include="FullWebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FullWebBrowser.Designer.cs">
+      <DependentUpon>FullWebBrowser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper.cs" />
     <Compile Include="InterceptKeys.cs" />
     <Compile Include="LoginForm.cs">
@@ -86,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FullscreenLock.resx">
       <DependentUpon>FullscreenLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullWebBrowser.resx">
+      <DependentUpon>FullWebBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -118,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="padlock-3-128.ico" />
+    <None Include="Resources\refresh-2-64.png" />
+    <None Include="Resources\arrow-24-64.png" />
+    <None Include="Resources\arrow-88-64.png" />
     <None Include="Resources\globe-2-64 %281%29.png" />
     <None Include="Resources\globe-2-1281.png" />
     <None Include="Resources\note-2-64.png" />

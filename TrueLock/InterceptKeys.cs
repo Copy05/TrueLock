@@ -1,9 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/*
+ * 
+ * Copyright Copy05 2016-2023
+ * TrueLock is a product by Copy05.
+ * 
+ * **/
+
+using System;
 using System.Diagnostics;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Windows.Forms;
 
 namespace TrueLock
@@ -18,7 +22,6 @@ namespace TrueLock
             public delegate IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam);
 
             private const int WH_KEYBOARD_LL = 13;
-            private const int WM_KEYDOWN = 0x0100;
             public static IntPtr SetHook(LowLevelKeyboardProc proc)
             {
                 using (Process curProcess = Process.GetCurrentProcess())
@@ -78,7 +81,8 @@ namespace TrueLock
                         || key == Keys.RControlKey || key == Keys.Delete || key == Keys.Escape || key == Keys.Control && key == Keys.Alt && key == Keys.Delete 
                         || key == Keys.Alt && key == Keys.Escape || key == Keys.LControlKey && key == Keys.Alt && key == Keys.Delete 
                         || key == Keys.RControlKey && key == Keys.Alt && key == Keys.Delete || key == Keys.VolumeUp || key == Keys.VolumeDown || key == Keys.VolumeDown 
-                        || key == Keys.F4 || key == Keys.LWin && key == Keys.L || key == Keys.Print || key == Keys.Sleep || key == Keys.F11 || key == Keys.F1)
+                        || key == Keys.F4 || key == Keys.LWin && key == Keys.L || key == Keys.Print || key == Keys.Sleep || key == Keys.F11 || key == Keys.F1 
+                        || key == Keys.Shift || key == Keys.ShiftKey || key == Keys.LShiftKey || key == Keys.RShiftKey)
                         return (IntPtr)1;
                 }
 

@@ -63,6 +63,26 @@ namespace TrueLock.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_24_64 {
+            get {
+                object obj = ResourceManager.GetObject("arrow-24-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_88_64 {
+            get {
+                object obj = ResourceManager.GetObject("arrow-88-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap globe_2_128 {
             get {
                 object obj = ResourceManager.GetObject("globe-2-128", resourceCulture);
@@ -106,6 +126,16 @@ namespace TrueLock.Properties {
         internal static System.Drawing.Bitmap padlock_3_128__1_ {
             get {
                 object obj = ResourceManager.GetObject("padlock-3-128 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap refresh_2_64 {
+            get {
+                object obj = ResourceManager.GetObject("refresh-2-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
