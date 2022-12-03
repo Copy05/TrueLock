@@ -26,6 +26,13 @@ The Design of this application is inspired by Windows XP & Windows 95.
 - User-friendly UI
 - Ability to double lock *(Lock and then Win + L)*
 - Customizeable Login Deails
+- CLI
+
+```ps1
+./truelock username password -browser url
+```
+
+- WebBrowser Lock
 - Disabling Keyboard Shortcuts *(Alt + f4, Alt + Tab, etc...)*
 - Can be used in a multiple monitor workspace.
 
@@ -39,6 +46,7 @@ Knowen Problems
 -
 - If you're not carefully you can lose your unsaved work.
 - If TrueLock Crashes and you dont have Task Manager then you have to restart
+- WebBrowser can crash.
 
 
 # Some Code Snippits
